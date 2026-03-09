@@ -15,6 +15,8 @@ const puppeteer = require('rebrowser-puppeteer');
   const [ page ] = await browser.pages();
 
   try {
+    // ❗ Set login protection to "Элементарная (Basic)" at https://cp.sprinthost.ru/security/index
+
     // 1. Go to control panel page
     console.log('Navigating to control panel page...');
     const clientArea = 'https://cp.sprinthost.ru/main/index';
