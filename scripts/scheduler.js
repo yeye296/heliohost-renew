@@ -11,7 +11,7 @@ const config = [
   { workflow: "alwaysdata-renew.yml", interval: { value: 85, unit: "day" } },
   { workflow: "heliohost-renew.yml", interval: { value: 25, unit: "day" } },
   { workflow: "sprinthost-renew.yml", interval: { value: 55, unit: "day" } },
-  { workflow: "webhostmost-renew.yml", interval: { value: 40, unit: "day" } }
+  { workflow: "webhostmost-renew.yml", interval: { value: 38, unit: "day" } }
   // netsons.com - every year, expiration: 03/08/2026
 ];
 
